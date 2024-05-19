@@ -22,6 +22,7 @@ body{
     cursor: pointer;
     transition: all 1s ease;
 }
+
 .hideTheDiv{
     opacity: 0;
 }
@@ -55,11 +56,13 @@ li{
     padding: 5px;
     user-select: none;
     cursor: pointer;
-    transition: all 1s ease;
 }
 li:hover{
-    opacity: 0.67;
+    opacity: 0.6;
 }
 .liTagUp{
     transform: translateY(-10px);
+}
+ul{
+    transition: all 1s ease;
 }
